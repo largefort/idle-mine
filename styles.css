@@ -9,12 +9,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px; /* Adjusted padding for smaller screens */
+  padding: 20px;
 }
 
 .mineral {
-  width: calc(50% - 20px); /* Two minerals per row */
-  max-width: 300px; /* Limiting max-width for smaller screens */
+  width: 200px;
   border: 2px solid #333;
   border-radius: 5px;
   padding: 15px;
@@ -24,13 +23,13 @@ body {
 }
 
 .mineral h2 {
-  font-size: 18px; /* Slightly reduced font size for smaller screens */
+  font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .mineral p {
-  font-size: 14px; /* Reduced font size for smaller screens */
+  font-size: 16px;
   margin-bottom: 15px;
 }
 
